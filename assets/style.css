@@ -52,5 +52,7 @@ section {
     width: 60%;
 }
 
-
+#work-boxes {
+    border: solid 1px blue;;
+}
 
