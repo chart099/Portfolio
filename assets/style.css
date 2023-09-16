@@ -37,4 +37,20 @@ nav a {
 
 section {
     border: 1px solid red; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+#header-image {
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+}
+
+#about-me p {
+    width: 60%;
+}
+
+
+
