@@ -1,5 +1,7 @@
 # Portfolio
 
+This project showcases a mock portfolio. The first project link is live and connects to a previous bootcamp challenge. 
+
 Live link: https://chart099.github.io/Portfolio/![Alt text]
 
 (<Screenshot 2023-09-18 164026.png>)
