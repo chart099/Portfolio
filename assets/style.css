@@ -84,6 +84,8 @@ section > h2 {
 }
 #about-me p {
     width: 60%;
+    margin-right: 20px;
+    padding: 10px 0;
 }
 
 /* work section styling */
@@ -183,6 +185,10 @@ body {
 #about-me {
     flex-direction: column;
     text-align: center;
+}
+
+#about-me p {
+    margin: 0;
 }
 
 #work {
