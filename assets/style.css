@@ -117,14 +117,13 @@ section > h2 {
 #primary-project h4 {
     position: relative;
     background-color: teal;
-    color: black;
+    color: white;
     bottom: 25px;
     display: inline;
 
 }
 
 #secondary-project {
-
     display: flex;
     width: 100%;
     height: 50%;
@@ -136,6 +135,7 @@ section > h2 {
 .box {
 width: 50%;
 height: 50%;
+border: 1px solid teal;
 }
 
 .box img {
@@ -146,29 +146,10 @@ height: 50%;
 .box h4 {
     position: relative;
     background-color: teal;
-    color: black;
+    color: white;
     bottom: 25px;
     display: inline;
     margin: 0;
-}
-
-#project2 {
-
-}
-
-#project3 {
-
-
-}
-
-#project4 {
-
-
-}
-
-#project5 {
- 
-   
 }
 
 /* contact me section styling */
@@ -176,6 +157,7 @@ height: 50%;
 #contact-me {
     /* margin-top: 100px;
     margin-bottom: 50px; */
+    padding: 50px 0; 
     display: flex; 
     flex-direction: row;
     align-items: center;
@@ -191,6 +173,31 @@ height: 50%;
     display: inline; 
     margin: 0 20px; 
     text-wrap: nowrap;
+}
+
+@media screen and (max-width: 800px) {
+body {
+    justify-content: center;
+}
+
+#about-me {
+    flex-direction: column;
+    text-align: center;
+}
+
+#work {
+    flex-direction: column;
+}
+
+    #secondary-project {
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    #contact-me ul{
+        flex-direction: column;
+    }
 }
 
 
