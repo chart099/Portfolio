@@ -67,10 +67,7 @@ nav a {
 
 section {
     margin: 20px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 section > h2 {
@@ -79,44 +76,71 @@ section > h2 {
 }
 
 /* about me styling */
-
+#about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 #about-me p {
     width: 60%;
 }
 
 /* work section styling */
-
+#work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 #work-boxes {
     display: flex;
     flex-direction: column;
     width: 70%;
     margin: 0 10px;
     height: 80vh;
-    border: 1px solid red;
 }
 
 #primary-project {
-
-    width: 50%;
+    width: 100%;
     min-height: 50px;
-    background-color: teal;
+    border: 2px solid teal;
     height: 50%;
     margin-top: 0;
 }
 
+#primary-project img {
+    width: 100%;
+    height: 100%;
+}
+
+#primary-project h4 {
+    
+    position: absolute;
+    background-color: teal;
+    color: black;
+    bottom: 130px;
+
+}
+
 #secondary-project {
+    border: 1px solid red;
     display: flex;
+    width: 100%;
     height: 50%;
-    flex-wrap: wrap; 
+    flex-direction: row;
 }
 
 .box {
-    width: 50px;
-    height: 50px;
+
+}
+
+.box img {
+    width: 25%;
+    height: 25%;
 }
 
 #project2 {
-flex-wrap: wrap;
 
 }
 
@@ -135,14 +159,14 @@ flex-wrap: wrap;
    
 }
 
+/* contact me section styling */
+
 #contact-me {
     display: flex; 
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-
-/* contact me section styling */
 
 #contact-me ul {
     text-align: right;
