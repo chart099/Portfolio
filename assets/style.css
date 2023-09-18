@@ -54,7 +54,7 @@ nav a {
 #header-subtitle {
     position: absolute; 
     right: 10px;
-    bottom: 15px;
+    bottom: 100vh;
     background-color: rgba(0, 128, 119);
     color: white; 
     z-index: 2;
@@ -83,22 +83,42 @@ section > h2 {
     flex-wrap: wrap;
     width: 70%;
     margin: 0 10px;
-    
+    height: 80vh;
+    border: 1px solid red;
 }
 
 #primary-project {
 
     width: 100%;
     min-height: 50px;
+    background-color: teal;
+    height: 50%;
+    margin-top: 0;
 }
 
 #secondary-project {
     display: flex;
-    flex-wrap: wrap; 
+    height: 50%;
 }
 
 .box {
 
+}
+
+#project2 {
+    background-color: aquamarine;
+}
+
+#project3 {
+    background-color: cadetblue;
+}
+
+#project4 {
+    background-color: cornflowerblue;
+}
+
+#project5 {
+    background-color: darkcyan;
 }
 
 #contact-me {
